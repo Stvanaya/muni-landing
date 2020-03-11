@@ -503,12 +503,14 @@ a.yellow {
       margin-top: 90px;
     }
 
-    .benefits-title {
-      align-items: flex-start;
+    .benefits-title,
+    .features-title,
+    .testimonials-title {
+      align-items: center;
     }
 
     .benefits-title > h4 {
-      text-align: start;
+      text-align: center;
     }
 
     .benefits-bullets {
@@ -533,20 +535,17 @@ a.yellow {
       gap: 50px 0;
     }
 
-    .features-title {
-      align-items: flex-start;
+    .features-title > h2 {
+      text-align: center;
     }
 
     .features-title > h4 {
+      text-align: center;
       margin-bottom: 50px;
     }
 
-    .testimonials-title {
-      align-items: flex-start;
-    }
-
     .testimonials-title > h2 {
-      text-align: start;
+      text-align: center;
       width: 100%;
     }
 
