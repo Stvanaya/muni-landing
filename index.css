@@ -357,8 +357,8 @@ a.yellow {
   gap: 80px 0;
 }
 
-.features-item > img {
-  min-height: 145px;
+.features-img {
+  min-height: 145px !important;
 }
 
 .testimonials {
