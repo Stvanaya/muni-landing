@@ -484,6 +484,11 @@ a.yellow {
       font-size: .9em;
     }
 
+    .float-button {
+      right: 10px;
+      bottom: 10px;
+    }
+
     .grid-right-hg,
     .grid-right,
     .grid-left-hg,
