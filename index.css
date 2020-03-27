@@ -101,7 +101,7 @@ button {
   min-width: 100px;
   height: 50px;
   font-family: var(--font-type);
-  font-size: .9em;
+  font-size: .9em !important;
   font-weight: var(--font-bold);
   border: none;
   padding: 5px 15px;
@@ -142,7 +142,7 @@ button.withIcon {
 
 a {
   font-family: var(--font-type);
-  font-size: 12px;
+  font-size: 14px;
   font-weight: var(--font-bold);
   color: var(--navy);
   text-decoration: none;
@@ -253,6 +253,19 @@ a.yellow {
 }
 /* /UTILITY CLASSES */
 
+  .float-button {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 9;
+  }
+
+  .float-button-image {
+    width: 180px !important;
+    height: auto !important;
+    object-fit: contain;
+  }
+
 .header {
   display: grid;
   grid-template-columns: 100px auto;
@@ -287,7 +300,7 @@ a.yellow {
 
 .hero > img {
   position: absolute;
-  top: 7vh;
+  top: 12vh;
   right: 0;
   width: 40vw;
   height: auto;
@@ -310,13 +323,13 @@ a.yellow {
 }
 
 .benefits-title > h2 {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .benefits-bullets {
   display: flex;
   justify-content: space-around;
-  margin-top: 80px;
+  margin-top: 20px;
 }
 
 .benefits-bullet {
@@ -341,7 +354,7 @@ a.yellow {
 }
 
 .features-title > h2 {
-  margin-top: 80px;
+  margin-top: 100px;
 }
 
 .features-title > h4 {
