@@ -156,6 +156,11 @@ a.yellow {
   color: var(--sfYellow);
 }
 
+video {
+  background-color: var(--aquamarine);
+  width: 100%;
+}
+
 /* UTILITY CLASSES */
 .main-grid {
   display: grid;
@@ -268,14 +273,14 @@ a.yellow {
 
 .header {
   display: grid;
-  grid-template-columns: 100px auto;
+  grid-template-columns: 130px auto;
   justify-items: flex-start;
   align-items: center;
 }
 
 .header-logo {
-  width: 98px;
-  height: 30px;
+  width: 130px;
+  height: 40px;
 }
 
 .header-nav {
@@ -309,7 +314,7 @@ a.yellow {
 }
 
 .hero-side > p {
-  margin-bottom: 70px;
+  margin-bottom: 20px;
 }
 
 .benefits {
@@ -386,7 +391,7 @@ a.yellow {
 }
 
 .testimonials-title > h4 {
-  margin-top: 120px;
+  margin-top: 60px;
 }
 
 .testimonials-title > h2 {
@@ -435,6 +440,15 @@ a.yellow {
   position: relative;
   top: 0;
   left: -10px;
+}
+
+.testimonials-content > p::after {
+  content: '”';
+  font-weight: var(--font-bold);
+  font-size: 20px;
+  position: relative;
+  top: 0;
+  right: -10px;
 }
 
 .footer {
