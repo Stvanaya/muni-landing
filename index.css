@@ -49,7 +49,7 @@ h2 {
 h3 {
   font-family: var(--font-type);
   font-size: 1.2em;
-  font-weight: var(--font-bold);
+  font-weight: var(--font-rgl);
   color: var(--navy);
   line-height: 1.4em;
   margin: 0;
@@ -561,7 +561,7 @@ video {
     }
     
     .benefits-bullet > img {
-      height: 150px;;
+      height: 200px;
     }
 
     .features-item {
